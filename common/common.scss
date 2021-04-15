@@ -1,0 +1,25 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Lato', Helvetica, Arial, san-serif;
+}
+
+.d-header {
+  background: linear-gradient(182deg, #004EA6 0%, #00Ca9e 100%);
+  /* background: linear-gradient(to right, #432f24 0%, #ABAB76 100%); */
+  /* background: linear-gradient(-90deg, #71945A, #ABAB76); */
+  box-shadow: 0 2px 6px -1px rgba(0, 0, 0, 0.35);
+
+  .extra-info-wrapper {
+    .clear-badge .category-name,
+    .topic-link {
+      color: #ffe;
+    }
+  }
+}
+
+.nav-link-container a.nav-link i.fa {
+  color: #ffe;
+}
